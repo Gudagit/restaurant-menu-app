@@ -1,0 +1,99 @@
+# Photo credits (Openverse, openly licensed)
+
+These are placeholder stock photos, not photos of your actual dishes. Attribution is required by CC BY / CC BY-SA licenses if this app goes live.
+
+- "Acai Bowl" -> acai-bowl.jpg | by Lauren_Hannah | BY 2.0 | source: https://www.flickr.com/photos/41256296@N07/18811880221
+- "Oatmeal" -> oatmeal.jpg | by thebittenword.com | BY 2.0 | source: https://www.flickr.com/photos/22198928@N00/3294687099
+- "Egg White Omelette" -> egg-white-omelette.jpg | by avlxyz | BY-SA 2.0 | source: https://www.flickr.com/photos/10559879@N00/2407237880
+- "Quinoa Bowl" -> quinoa-bowl.jpg | by SaucyGlo | BY 2.0 | source: https://www.flickr.com/photos/67238971@N04/7846458390
+- "Lemon Ricotta Pancakes" -> lemon-ricotta-pancakes.jpg | by emmadiscovery | BY 2.0 | source: https://www.flickr.com/photos/8174757@N02/6804099758
+- "Croissant" -> croissant.jpg | by avlxyz | BY-SA 2.0 | source: https://www.flickr.com/photos/10559879@N00/745528507
+- "Chocolate Croissant" -> chocolate-croissant.jpg | by therovingepicure | BY 2.0 | source: https://www.flickr.com/photos/65564877@N08/7307318644
+- "Toast" -> toast.jpg | by travelling slacker | BY 2.0 | source: https://www.flickr.com/photos/60651851@N02/16555285093
+- "Baked Beans" -> baked-beans.jpg | by Girl Interrupted Eating | BY 2.0 | source: https://www.flickr.com/photos/35468144810@N01/4228116293
+- "Roasted Tomato" -> roasted-tomato.jpg | by avlxyz | BY-SA 2.0 | source: https://www.flickr.com/photos/10559879@N00/2418785280
+- "Hash Browns" -> hash-browns.jpg | by oosp | BY-SA 2.0 | source: https://www.flickr.com/photos/89669379@N00/3449326505
+- "Avocado" -> avocado.jpg | by jpockele | BY 2.0 | source: https://www.flickr.com/photos/44148352@N00/5912820583
+- "Mushrooms" -> mushrooms.jpg | by gamene | BY 2.0 | source: https://www.flickr.com/photos/12670507@N02/4039012309
+- "Spinach" -> spinach.jpg | by Dan4th | BY 2.0 | source: https://www.flickr.com/photos/43264265@N00/2417204473
+- "Smoked Salmon" -> smoked-salmon.jpg | by WordRidden | BY 2.0 | source: https://www.flickr.com/photos/97844767@N00/173689697
+- "Bacon" -> bacon.jpg | by avlxyz | BY-SA 2.0 | source: https://www.flickr.com/photos/10559879@N00/745528507
+- "Sausage" -> sausage.jpg | by jeffreyw | BY 2.0 | source: https://www.flickr.com/photos/7927684@N03/7104077479
+- "Greens Juice" -> greens-juice.jpg | by Divine in the Daily | BY-ND 2.0 | source: https://www.flickr.com/photos/82552101@N00/2596329869
+- "Roots Juice" -> roots-juice.jpg | by Divine in the Daily | BY-ND 2.0 | source: https://www.flickr.com/photos/82552101@N00/2596329869
+- "Espresso" -> espresso.jpg | by avlxyz | BY-SA 2.0 | source: https://www.flickr.com/photos/10559879@N00/2970778911
+- "Macchiato" -> macchiato.jpg | by Curious Food Lover | BY 2.0 | source: https://www.flickr.com/photos/32831414@N07/4560520603
+- "Americano" -> americano.jpg | by moriza | BY 2.0 | source: https://www.flickr.com/photos/44373968@N00/130585060
+- "Cappuccino" -> cappuccino.jpg | by Lablascovegmenu | BY 2.0 | source: https://www.flickr.com/photos/35022955@N06/7448919266
+- "Café Latte" -> caf-latte.jpg | by debbietingzon | BY 2.0 | source: https://www.flickr.com/photos/32031278@N03/9207319403
+- "Matcha Latte" -> matcha-latte.jpg | by Alina Kakshapati | CC0 1.0 | source: https://wordpress.org/photos/photo/56068aab06/
+- "Rishi Tea" -> rishi-tea.jpg | by Breville USA | BY 2.0 | source: https://www.flickr.com/photos/38102750@N06/8701572335
+- "Fresh Juice" -> fresh-juice.jpg | by Divine in the Daily | BY-ND 2.0 | source: https://www.flickr.com/photos/82552101@N00/2596329869
+- "Cured Meat & Cheeses" -> cured-meat-cheeses.jpg | by permanently scatterbrained | BY 2.0 | source: https://www.flickr.com/photos/88774309@N00/2603619474
+- "Whipped Ricotta" -> whipped-ricotta.jpg | by T.Tseng | BY 2.0 | source: https://www.flickr.com/photos/68147320@N02/16091387189
+- "Avocado Dip" -> avocado-dip.jpg | by avlxyz | BY-SA 2.0 | source: https://www.flickr.com/photos/10559879@N00/923675633
+- "Vegetable Minestrone Soup" -> vegetable-minestrone-soup.jpg | by Jason Sandeman | BY 2.0 | source: https://www.flickr.com/photos/8853180@N02/3569744317
+- "Hamachi Crudo" -> hamachi-crudo.jpg | by amlamster | BY 2.0 | source: https://www.flickr.com/photos/35892836@N07/5392820783
+- "Butter Lettuce" -> butter-lettuce.jpg | by dollen | BY 2.0 | source: https://www.flickr.com/photos/39804614253@N01/8327716340
+- "Chopped Salad with Chicken" -> chopped-salad-with-chicken.jpg | by tyger_lyllie | BY 2.0 | source: https://www.flickr.com/photos/67949051@N00/2663155602
+- "Caesar Salad" -> caesar-salad.jpg | by mdid | BY 2.0 | source: https://www.flickr.com/photos/58246614@N00/4530287468
+- "Tuscan Kale" -> tuscan-kale.jpg | by PersonalCreations.com | BY 2.0 | source: https://www.flickr.com/photos/127294011@N07/16085794138
+- "Spicy Salami Pizza" -> spicy-salami-pizza.jpg | by WordRidden | BY 2.0 | source: https://www.flickr.com/photos/97844767@N00/4973476273
+- "Artichokes Pizza" -> artichokes-pizza.jpg | by 1lenore | BY 2.0 | source: https://www.flickr.com/photos/80522246@N00/291975127
+- "Spaghetti Lobster" -> spaghetti-lobster.jpg | by snowpea&bokchoi | BY 2.0 | source: https://www.flickr.com/photos/28531775@N06/4419960207
+- "Branzino" -> branzino.jpg | by cookbookman17 | BY 2.0 | source: https://www.flickr.com/photos/58545726@N02/6800988058
+- "Lamb Chops Scottadito" -> lamb-chops-scottadito.jpg | by goodiesfirst | BY 2.0 | source: https://www.flickr.com/photos/49215102@N00/4221289124
+- "Eggplant Parmigiana" -> eggplant-parmigiana.jpg | by barisione | BY 2.0 | source: https://www.flickr.com/photos/97912287@N00/1169553381
+- "Whole Cauliflower" -> whole-cauliflower.jpg | by jhegyessy | BY 2.0 | source: https://www.flickr.com/photos/33805261@N00/7150673655
+- "Bistecca alla Fiorentina" -> bistecca-alla-fiorentina.jpg | by McPig | BY 2.0 | source: https://www.flickr.com/photos/80264890@N00/2095439638
+- "Green Leaves" -> green-leaves.jpg | by rovingI | BY 2.0 | source: https://www.flickr.com/photos/70522326@N00/305698269
+- "Sautéed Spinach" -> saut-ed-spinach.jpg | by Lablascovegmenu | BY 2.0 | source: https://www.flickr.com/photos/35022955@N06/8288297190
+- "Broccolini, Chili" -> broccolini-chili.jpg | by jamieanne | BY-ND 2.0 | source: https://www.flickr.com/photos/68691112@N00/6900686146
+- "Brussel Sprout" -> brussel-sprout.jpg | by SavvyChristine | BY 2.0 | source: https://www.flickr.com/photos/26396944@N02/3539983111
+- "Flourless Chocolate Cake" -> flourless-chocolate-cake.jpg | by HarshLight | BY 2.0 | source: https://www.flickr.com/photos/79172203@N00/5297248347
+- "Profiteroles" -> profiteroles.jpg | by avlxyz | BY-SA 2.0 | source: https://www.flickr.com/photos/10559879@N00/2970778555
+- "Yogurt Natural, Granola & Berries" -> yogurt-natural-granola-berries.jpg | by dailyfood | BY 2.0 | source: https://www.flickr.com/photos/28970677@N04/2704159113
+- "Eggs Arrabbiata" -> eggs-arrabbiata.jpg | by City Foodsters | BY 2.0 | source: https://www.flickr.com/photos/89060048@N03/10322947344
+- "Trip CBD Drink" -> trip-cbd-drink.jpg | by thebittenword.com | BY 2.0 | source: https://www.flickr.com/photos/22198928@N00/2497364306
+- "La Colombe Cold Brew" -> la-colombe-cold-brew.jpg | by thebittenword.com | BY 2.0 | source: https://www.flickr.com/photos/22198928@N00/688642298
+- "Draft Latte" -> draft-latte.jpg | by unknown | CC0 1.0 | source: https://www.rawpixel.com/image/6035661/photo-image-public-domain-person-coffee
+- "Zucchini Fritti" -> zucchini-fritti.jpg | by oonhs | BY 2.0 | source: https://www.flickr.com/photos/51903019@N05/14925650515
+- "Artichokes, Cacio & Pepe" -> artichokes-cacio-pepe.jpg | by shawnzrossi | BY 2.0 | source: https://www.flickr.com/photos/19517696@N00/2317236233
+- "Calabrian Sausage Pizza" -> calabrian-sausage-pizza.jpg | by avlxyz | BY-SA 2.0 | source: https://www.flickr.com/photos/10559879@N00/4602835809
+- "Black Truffle Pizza" -> black-truffle-pizza.jpg | by AVID Vines | BY 2.0 | source: https://www.flickr.com/photos/75921150@N00/8432407275
+- "Arugula & Parmigiano" -> arugula-parmigiano.jpg | by Anagoria | BY-SA 4.0 | source: https://commons.wikimedia.org/w/index.php?curid=178143320
+# Additional photo credits (added after commercial-license audit)
+
+- "Blueberry Muffin" -> blueberry-muffin-final.jpg | by alicegop | BY | source: https://www.flickr.com/photos/28923041@N05/8063285895
+- "Buffalo Mozzarella Pizza" -> buffalo-mozzarella-pizza-final.jpg | by AlexanderVanLoon | BY-SA | source: https://www.flickr.com/photos/94609149@N05/10842122416
+- "Agnolotti del Plin" -> agnolotti-del-plin-final.jpg | by Karen and Brad Emerson | BY | source: https://commons.wikimedia.org/w/index.php?curid=103534473
+- "Risotto Porcini" -> risotto-porcini-final.jpg | by SaucyGlo | BY | source: https://www.flickr.com/photos/[id]/6703098979
+- "Dover Sole" -> dover-sole-final.jpg | by ralph and jenny | BY | source: https://www.flickr.com/photos/92269745@N00/2928616383
+- "Roasted Rosemary Potatoes" -> roasted-rosemary-potatoes-final.jpg | by sousvideguy | BY | source: https://www.flickr.com/photos/[id]/40672637280
+- "Fruit Bowl" -> fruit-bowl-final.jpg | by Vegan Feast Catering | BY | source: https://www.flickr.com/photos/25128194@N02/4087276924
+- "Gelato & Sorbet" -> gelato-sorbet-final.jpg | by shankar s. | BY | source: https://www.flickr.com/photos/77742560@N06/14064796859
+- "Fusilli Zucchini" -> fusilli-zucchini-final.jpg | by dailyfood | BY | source: https://www.flickr.com/photos/28970677@N04/4396546608
+- "Mayer Lemon Meringata" -> mayer-lemon-meringata-final.jpg | by avlxyz | BY-SA | source: https://www.flickr.com/photos/10559879@N00/4390906280
+- "Draft Latte" -> draft-latte-final.jpg | by insidious_plots | BY | source: https://www.flickr.com/photos/70928775@N00/4253139028
+- "Greens Juice" -> greens-juice-final.jpg | by Stacy Spensley | BY | source: https://www.flickr.com/photos/21001756@N06/8761977445
+- "Whole Cauliflower" -> whole-cauliflower-final.jpg | by HaJunkiyada | BY-SA | source: https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder
+- "Espresso" -> espresso-final.jpg | by TheCulinaryGeek | BY | source: https://www.flickr.com/photos/72949902@N00/5076909942
+- "Mushrooms" -> mushrooms-final.jpg | by TheGirlsNY | BY-SA | source: https://www.flickr.com/photos/13006283@N08/5472169079
+- "Macchiato" -> macchiato-v2.jpg | by McPig | BY
+- "Café Latte" -> caf-latte-v2.jpg | by insidious_plots | BY
+- "Cappuccino" -> cappuccino-v2.jpg | by insidious_plots | BY
+- "Americano" -> americano-v2.jpg | by waferboard | BY
+- "Roots Juice" -> roots-juice-v2.jpg | by missyward | BY
+- "Fresh Juice" -> fresh-juice-v2.jpg | by Rob.Bertholf | BY
+- "Mango Turmeric Juice" -> mango-turmeric-juice-v2.jpg | by Matthias Rhomberg | BY
+- "Croissant" -> croissant-v2.jpg | by zé_nuno | BY
+- "Caesar Salad" -> caesar-salad-v2.jpg | by Artem Beliaikin | CC0
+- "Butter Lettuce" -> butter-lettuce-v2.jpg | by thepinkpeppercorn | BY
+- "Cavatelli Lamb Ragu" -> cavatelli-lamb-ragu-v2.jpg | by WordRidden | BY
+- "Arugula & Parmigiano" -> arugula-parmigiano-v2.jpg | by ralph and jenny | BY
+- "Yogurt Coconut, Granola & Berries" -> yogurt-coconut-granola-berries-v2.jpg | by nan palmero | BY
+- "Zucchini Fritti" -> zucchini-fritti-v2.jpg | by stu_spivack | BY-SA
+- "Spicy Salami Pizza" -> spicy-salami-pizza-v2.jpg | by avlxyz | BY-SA
+- "Eggs Arrabbiata" -> eggs-arrabbiata-final.jpg | by ultrakml | BY | source: https://www.flickr.com/photos/[id]/15305126182
+- "Baked Beans" -> baked-beans-final.jpg | by Ewan-M | BY-SA | source: https://www.flickr.com/photos/[id]/2875954468
+- "Welcome screen background" -> restaurant-ambiance.jpg | by Debs | BY | source: https://www.flickr.com/photos/[id]/4668208435

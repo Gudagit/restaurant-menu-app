@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Menu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div id="welcome-screen">
+    <div class="welcome-overlay">
+      <div class="welcome-icon">&#127860;</div>
+      <h1>Cecconi's Miami Beach</h1>
+      <p class="tagline">Italian dining, Miami style</p>
+      <button id="view-menu-button">Explore Menu &#8594;</button>
+    </div>
+  </div>
+
+  <div id="menu-screen" class="hidden">
+    <div id="accordion"></div>
+  </div>
+
+  <div id="detail-screen" class="hidden">
+    <div class="detail-photo-wrap">
+      <img id="detail-image" src="" alt="">
+      <button id="back-button" class="detail-icon-button detail-icon-back">&larr;</button>
+      <div class="detail-icon-row">
+        <button class="detail-icon-button" title="Share">&#8679;</button>
+        <button class="detail-icon-button" title="Save">&#9825;</button>
+      </div>
+    </div>
+
+    <div class="detail-content">
+      <div class="detail-title-row">
+        <h2 id="detail-name"></h2>
+        <p id="detail-price"></p>
+      </div>
+
+      <p id="detail-category-tag" class="tag-pill"></p>
+
+      <h3>About this dish</h3>
+      <p id="detail-description"></p>
+
+      <h3>Add extras</h3>
+      <div id="detail-extras"></div>
+    </div>
+
+    <div class="detail-order-row">
+      <div class="quantity-stepper">
+        <button id="quantity-minus" type="button">&minus;</button>
+        <span id="quantity-value">1</span>
+        <button id="quantity-plus" type="button">+</button>
+      </div>
+      <button id="detail-add-button">Add to Cart</button>
+    </div>
+  </div>
+
+  <script src="menu-data.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
