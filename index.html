@@ -2,62 +2,150 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Our Menu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Miami Beach · Digital Menu</title>
+  <meta name="description" content="Italian dining, Miami style. Browse the full menu, customise your dish and build your order from your phone.">
+  <meta name="theme-color" content="#0d130e">
+  <meta name="color-scheme" content="dark">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preload" as="image" href="images/restaurant-ambiance.webp">
+  <meta property="og:title" content="Miami Beach · Digital Menu">
+  <meta property="og:description" content="Scan, browse and order. A mobile-first QR menu for an Italian restaurant.">
+  <meta property="og:image" content="https://gudagit.github.io/restaurant-menu-app/images/restaurant-ambiance.webp">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%23ff6b6b'/%3E%3Ctext x='50' y='68' font-size='56' text-anchor='middle'%3E%F0%9F%8D%9D%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <div id="welcome-screen">
+  <!-- Welcome -->
+  <section id="welcome-screen" aria-labelledby="welcome-title">
     <div class="welcome-overlay">
-      <div class="welcome-icon">&#127860;</div>
-      <h1>Miami Beach</h1>
+      <p class="eyebrow">Ristorante &amp; Bar</p>
+      <h1 id="welcome-title">Miami Beach</h1>
       <p class="tagline">Italian dining, Miami style</p>
-      <button id="view-menu-button">Explore Menu &#8594;</button>
+      <button id="view-menu-button" class="btn-primary">Explore Menu <span aria-hidden="true">&rarr;</span></button>
     </div>
-  </div>
+  </section>
 
-  <div id="menu-screen" class="hidden">
-    <div id="accordion"></div>
-  </div>
+  <!-- Menu -->
+  <section id="menu-screen" class="hidden" aria-label="Menu">
+    <header class="menu-header">
+      <div class="menu-topbar">
+        <h2 class="brand">Miami Beach</h2>
+        <button id="cart-open-button" class="icon-button" aria-label="Open order">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 7h12l-1 13H7L6 7Zm3 0a3 3 0 0 1 6 0"/></svg>
+          <span id="cart-badge" class="badge hidden">0</span>
+        </button>
+      </div>
+      <label class="search">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+        <input id="search-input" type="search" placeholder="Search dishes, ingredients…" aria-label="Search the menu" autocomplete="off">
+      </label>
+      <div id="group-tabs" class="group-tabs" role="tablist" aria-label="Menu sections"></div>
+      <div id="category-chips" class="category-chips" aria-label="Categories"></div>
+    </header>
 
-  <div id="detail-screen" class="hidden">
+    <main id="dish-list" class="dish-list" aria-live="polite"></main>
+    <p class="footer-note">Photos: openly licensed images &middot; <a href="images/CREDITS.md">Credits</a></p>
+  </section>
+
+  <!-- Floating cart bar -->
+  <button id="cart-bar" class="cart-bar hidden" aria-label="View order">
+    <span class="cart-bar-count" id="cart-bar-count">0</span>
+    <span class="cart-bar-label">View order</span>
+    <span class="cart-bar-total" id="cart-bar-total">$0.00</span>
+  </button>
+
+  <!-- Detail -->
+  <section id="detail-screen" class="hidden" aria-label="Dish details">
     <div class="detail-photo-wrap">
       <img id="detail-image" src="" alt="">
-      <button id="back-button" class="detail-icon-button detail-icon-back">&larr;</button>
+      <button id="back-button" class="icon-button floating detail-back" aria-label="Back to menu">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+      </button>
       <div class="detail-icon-row">
-        <button class="detail-icon-button" title="Share">&#8679;</button>
-        <button class="detail-icon-button" title="Save">&#9825;</button>
+        <button id="share-button" class="icon-button floating" aria-label="Share dish">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 16V4m0 0L7 9m5-5 5 5M5 14v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-5"/></svg>
+        </button>
+        <button id="save-button" class="icon-button floating" aria-label="Save to favourites" aria-pressed="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10Z"/></svg>
+        </button>
       </div>
     </div>
 
-    <div class="detail-content">
-      <div class="detail-title-row">
-        <h2 id="detail-name"></h2>
-        <p id="detail-price"></p>
+    <div class="detail-body">
+      <div class="detail-content">
+        <p id="detail-category-tag" class="tag-pill"></p>
+        <div class="detail-title-row">
+          <h2 id="detail-name"></h2>
+          <p id="detail-price"></p>
+        </div>
+        <p id="detail-description"></p>
+
+        <div id="detail-options-section" class="hidden">
+          <h3>Choose one</h3>
+          <div id="detail-options" class="option-list" role="radiogroup"></div>
+        </div>
+
+        <div id="detail-extras-section">
+          <h3>Add extras</h3>
+          <div id="detail-extras"></div>
+        </div>
       </div>
 
-      <p id="detail-category-tag" class="tag-pill"></p>
-
-      <h3>About this dish</h3>
-      <p id="detail-description"></p>
-
-      <h3>Add extras</h3>
-      <div id="detail-extras"></div>
+      <div class="detail-order-row">
+        <div class="quantity-stepper">
+          <button id="quantity-minus" type="button" aria-label="Decrease quantity">&minus;</button>
+          <span id="quantity-value" aria-live="polite">1</span>
+          <button id="quantity-plus" type="button" aria-label="Increase quantity">+</button>
+        </div>
+        <button id="detail-add-button" class="btn-primary">Add to Order</button>
+      </div>
     </div>
+  </section>
 
-    <div class="detail-order-row">
-      <div class="quantity-stepper">
-        <button id="quantity-minus" type="button">&minus;</button>
-        <span id="quantity-value">1</span>
-        <button id="quantity-plus" type="button">+</button>
-      </div>
-      <button id="detail-add-button">Add to Cart</button>
+  <!-- Order drawer -->
+  <div id="cart-backdrop" class="backdrop hidden"></div>
+  <aside id="cart-drawer" class="drawer" role="dialog" aria-modal="true" aria-labelledby="cart-title" aria-hidden="true">
+    <div class="drawer-handle" aria-hidden="true"></div>
+    <div class="drawer-head">
+      <h2 id="cart-title">Your order</h2>
+      <button id="cart-close-button" class="icon-button" aria-label="Close order">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+    </div>
+    <div id="cart-items" class="cart-items"></div>
+    <div class="drawer-foot">
+      <div class="total-row"><span>Subtotal</span><span id="cart-subtotal">$0.00</span></div>
+      <div class="total-row muted"><span>Service (18%)</span><span id="cart-service">$0.00</span></div>
+      <div class="total-row grand"><span>Total</span><span id="cart-total">$0.00</span></div>
+      <button id="checkout-button" class="btn-primary">Place order</button>
+      <button id="clear-cart-button" class="btn-link" type="button">Clear order</button>
+    </div>
+  </aside>
+
+  <!-- Order placed -->
+  <div id="success-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="success-title">
+    <div class="modal-card">
+      <div class="success-check" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></div>
+      <h2 id="success-title">Order sent to the kitchen</h2>
+      <p id="success-text"></p>
+      <p class="muted small">This is a portfolio demo — no real order is placed.</p>
+      <button id="success-close" class="btn-primary">Back to menu</button>
     </div>
   </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
 
   <script src="menu-data.js"></script>
   <script src="script.js"></script>
-
+  <noscript><p style="padding:24px;text-align:center">Please enable JavaScript to view the menu.</p></noscript>
 </body>
 </html>

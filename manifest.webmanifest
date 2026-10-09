@@ -1,0 +1,12 @@
+{
+  "name": "Miami Beach · Digital Menu",
+  "short_name": "Miami Beach",
+  "description": "Italian dining, Miami style. Browse the menu and build your order.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0d130e",
+  "theme_color": "#0d130e",
+  "icons": [
+    { "src": "images/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
