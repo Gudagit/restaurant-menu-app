@@ -4,7 +4,7 @@
   --surface-2: #1c281d;
   --line: rgba(255, 255, 255, 0.08);
   --text: #f4f1ea;
-  --muted: #a7b2a3;
+  --muted: #b6c1b2;
   --accent: #ff7a5c;
   --accent-2: #ff4f7b;
   --gold: #f0c27b;
@@ -737,7 +737,7 @@ html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
 body { overscroll-behavior-y: none; }
 
 /* 16px inputs stop iOS Safari from zooming the page on focus */
-.search input { font-size: 16px; }
+.search input { font-size: max(16px, 1rem); }
 
 /* Comfortable tap targets on touch screens */
 .add-button { width: 40px; height: 40px; }
@@ -762,4 +762,38 @@ body { overscroll-behavior-y: none; }
 @media (min-width: 1000px) {
   #welcome-screen { align-items: center; }
   .welcome-overlay { padding-bottom: 32px; }
+}
+
+/* ---------- Legibility on every screen ---------- */
+.dish-info .description { font-size: 0.88rem; }
+.group-tab { white-space: nowrap; }
+
+/* Very narrow screens (small phones, folded foldables) */
+@media (max-width: 340px) {
+  #menu-screen { padding-left: 12px; padding-right: 12px; }
+  .menu-header { margin: 0 -12px; padding-left: 12px; padding-right: 12px; }
+  .group-tab { font-size: 0.74rem; padding: 10px 2px; }
+  .dish-photo { width: 92px; height: 92px; }
+  .dish-card { gap: 10px; }
+}
+
+/* Large monitors: scale text up and use the extra width */
+@media (min-width: 1600px) {
+  html { font-size: 112.5%; }
+  #menu-screen { max-width: 1520px; }
+  .dish-grid { grid-template-columns: repeat(4, 1fr); }
+  #detail-screen { max-width: 1280px; }
+  .menu-header { margin-left: -28px; margin-right: -28px; }
+}
+
+@media (min-width: 2200px) {
+  html { font-size: 137.5%; }
+  #menu-screen { max-width: 1960px; }
+  .dish-grid { grid-template-columns: repeat(5, 1fr); }
+  #detail-screen { max-width: 1640px; }
+}
+
+/* Respect users who ask for more contrast */
+@media (prefers-contrast: more) {
+  :root { --muted: #d4dccf; --line: rgba(255, 255, 255, 0.28); }
 }
